@@ -1,0 +1,6 @@
+classes == execute methods from different java files
+
+constructor == default when executed
+
+overloading == different methods with same name and depends on parameters
+
