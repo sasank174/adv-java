@@ -29,6 +29,11 @@ class linkedlist {
         // size of the list
         System.out.println(list.size());
 
+        Iterator it = list.iterator();
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
+
 
         // peek
         System.out.println(list.peek());

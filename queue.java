@@ -16,6 +16,9 @@ public class queue {
         System.out.println(q.peek());
         System.out.println(q.poll());
         System.out.println(q.remove());
+        System.out.println("q.remove()");
+        System.out.println(q.element());
+        System.out.println(q.element());
         System.out.println(q.element());
 
 

@@ -1,40 +1,34 @@
-import java.util.*;
-
 public class stack332 {
     public static void main(String[] args) {
-        // stack program
-        Stack<String> stack = new Stack<String>();
-        stack.push("A");
-        stack.push("B");
-        stack.push("C");
-        stack.push("D");
-        stack.push("E");
-        stack.push("A");
-        stack.push("B");
-        stack.push("C");
-        stack.push("D");
-        stack.push("E");
-        stack.push("A");
-        stack.push("B");
-        stack.push("C");
-        stack.push("D");
-        stack.push("E");
-        stack.push("D");
-        stack.push("E");
-        stack.push("E");
-        stack.push("E");
-        stack.push("E");
-        stack.push("E");
-        stack.push("E");
-
-        // set stack size to 15
-        // stack.setSize(15);
+        Stack stack1 = new Stack();
+        stack1.push(4);
+        stack1.push(3);
+        stack1.push("3");
 
 
-        System.out.println("Stack: " + stack);
-        System.out.println("Popped: " + stack.pop());
-        System.out.println("capacity: " + stack.capacity());
-        System.out.println("size: " + stack.size());
-        System.out.println("empty: " + stack.isEmpty());
+        // System.out.println(stack);
+
+        // System.out.println(stack.peek());
+        // System.out.println(stack.peek());
+
+        // // remove the specific element
+        // stack.pop();
+        // stack.pop();
+        // System.out.println(stack);
+
+        // // index of the specific element
+        // System.out.println(stack.search("World"));
+
+        // // index from last
+        // System.out.println(stack.search("World", true));
+
+        // // size of the list
+        // System.out.println(stack.size());
+
+        // // peek
+        // System.out.println(stack.peek());
+
+        // // clear the list
+        // stack.clear();
     }
 }

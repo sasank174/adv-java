@@ -22,7 +22,8 @@ class arraylist {
 
         // index of the specific element
         System.out.println(list.indexOf("World"));
-
+        
+        System.out.println(list.indexOf(list.get(0)));
         // size of the list
         System.out.println(list.size());
 
